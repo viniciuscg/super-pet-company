@@ -1,0 +1,73 @@
+.container-register {
+    background-image: url("../../assets/wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c7ecf4;
+}
+
+.arrowtologin {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.register-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+    background-image: url("../../assets/wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300%;
+    height: 450px;
+    width: 350px;
+    -webkit-box-shadow: 10px 10px 73px 27px rgba(0,0,0,0.76);
+    -moz-box-shadow: 10px 10px 73px 27px rgba(0,0,0,0.76);
+    box-shadow: 10px 10px 73px 27px rgba(0,0,0,0.76);
+}
+
+.register-card h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.register-card span {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.inputs-register {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputs-register input{
+    border: none !important;
+    color: #c7ecf4;
+}
+
+.inputs-register input::placeholder{
+    color: #c7ecf4;
+}
+
+.gotoregister {
+    display: flex;
+    gap: 5px;
+}
+
+@media only screen and (max-width: 425px) {
+    .register-card {
+        height: 400px;
+        width: 300px;
+    }
+}

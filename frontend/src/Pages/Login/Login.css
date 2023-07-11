@@ -1,0 +1,68 @@
+.container-login {
+    background-image: url("../../assets/wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c7ecf4;
+}
+
+.login-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+    background-image: url("../../assets/wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300%;
+    height: 450px;
+    width: 350px;   
+}
+
+.login-card h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.login-card span {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.login-card button:hover {
+    background-color: rgba(255, 255, 255, 0.199) !important;
+}
+
+.inputs-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputs-login input{
+    border: none !important;
+    color: #c7ecf4;
+}
+
+.inputs-login input::placeholder{
+    color: #c7ecf4;
+}
+
+.gotoregister {
+    display: flex;
+    gap: 5px;
+}
+
+@media only screen and (max-width: 425px) {
+    .login-card {
+        height: 400px;
+        width: 300px;
+    }
+}
